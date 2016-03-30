@@ -298,7 +298,8 @@ input[type="submit"] {
       align-items: center;
       color: #e2b050; }
       .slide.fifth .winedrone span {
-        margin-left: 12px; }
+        margin-left: 12px;
+        line-height: 1.5;}
     .slide.fifth h1 {
       margin-bottom: 2em;
       color: #e2b050;
