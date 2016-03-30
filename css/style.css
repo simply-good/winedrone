@@ -14,6 +14,17 @@
   font-family: endurance;
   src: url(../assets/EndurancePro.ttf); }
 
+@font-face {
+  font-family: palatino;
+  src: url(../assets/Palatino-Roman.ttf); }
+
+@font-face {
+  font-family: palatino-italic;
+  src: url(../assets/Palatino-Italic.ttf); }
+
+.palatino {
+  font-family: palatino, serif;
+}
 .hidden {
   display: none !important; }
 
@@ -72,9 +83,27 @@ input[type="submit"] {
     background-color: #E2B050;
     color: white; }
 
+:-moz-placeholder {
+  font-family: baskerville-italic;
+  color: #242020;
+}
 ::-webkit-input-placeholder {
   font-family: baskerville-italic;
-  color: #242020; }
+  color: #242020;
+}
+:-ms-input-placeholder {
+  font-family: baskerville-italic;
+  color: #242020;
+}
+.palatino :-moz-placeholder {
+  font-family: palatino-italic;
+}
+.palatino ::-webkit-input-placeholder {
+  font-family: palatino-italic;
+}
+.palatino :-ms-input-placeholder {
+  font-family: palatino-italic;
+}
 
 .container {
   max-width: 1200px;
