@@ -25,6 +25,9 @@
 .palatino {
   font-family: palatino, serif;
 }
+.palatino .main-footer a {
+  font-size: 15px;
+}
 .hidden {
   display: none !important; }
 
