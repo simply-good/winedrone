@@ -175,6 +175,7 @@ input[type="submit"] {
   top: 33%;
   margin: 0;
   padding: 0;
+  z-index: 3;
 }
 .navigator li {
   display: block;
@@ -190,6 +191,15 @@ input[type="submit"] {
 }
 .navigator .current {
   background-color: rgb(110,110,110);
+}
+.slide.third .navigator li {
+  background-color: rgb(170,125,50);
+}
+.slide.third .navigator li:hover {
+  background-color: rgb(240,230,210);
+}
+.slide.third .navigator .current {
+  background-color: rgb(240,230,210);
 }
 .navigator a {
   display: block;
@@ -280,6 +290,7 @@ input[type="submit"] {
 /* Slide 3 */
 
 .slide.third {
+  position: relative;
   /* background-color: #E4AE5F; */
   background-image: url(../assets/background.jpg);
   background-size: cover;
@@ -318,7 +329,7 @@ input[type="submit"] {
     display: none;
   }
 }
-.slide.third ol {
+.slide.third .features {
   display: flex;
   list-style: none;
   font-family: baskerville-italic;
@@ -326,20 +337,20 @@ input[type="submit"] {
   padding: 0 30px 0 0;
   text-align: center;
 }
-.slide.third ol li {
+.slide.third .features li {
   width: 25%;
   position: relative;
   padding: 12px 10px;
 }
 @media (max-width: 767px) {
-  .slide.third ol li {
+  .slide.third .features li {
     font-size: 9px; } }
-.slide.third ol li p {
+.slide.third .features li p {
   margin: 6px 0;
   font-size: 38px;
   font-family: baskerville;
   color: #8f6d33; }
-.slide.third ol li:not(:last-child):after {
+.slide.third .features li:not(:last-child):after {
   content: "";
   top: 20px;
   right: 0;
