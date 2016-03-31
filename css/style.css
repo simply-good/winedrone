@@ -144,6 +144,11 @@ input[type="submit"] {
   flex-direction: column;
   justify-content: space-between;
   color: white; }
+@media (max-width: 767px) {
+  .slide.first .container {
+    width: 100%;
+  }
+}
 .slide.first .title {
   position: relative;
   right: 9px;
@@ -229,6 +234,7 @@ input[type="submit"] {
 }
 .slide.second .container {
   position: relative;
+  max-width: 838px;
 }
 .slide.second h1 {
   margin-top: 72px;
