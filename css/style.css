@@ -173,11 +173,11 @@ input[type="submit"] {
   bottom: 30px;
   text-align: center;
 }
-.slide.first svg {
+.slide.first .text {
   margin: 0 auto 100px auto;
   width: 90%; }
 @media (max-width: 767px) {
-  .slide.first svg {
+  .slide.first .text {
     margin-bottom: 60px; } }
 .slide.first h1 {
   font-size: 16px;
