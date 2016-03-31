@@ -134,6 +134,8 @@ input[type="submit"] {
 /* Slide 1 */
 
 .slide.first {
+  position: relative;
+  z-index: 3;
   background-image: url(../assets/drona_landing.jpg);
   background-size: cover;
   background-position: 46% center;}
@@ -175,7 +177,7 @@ input[type="submit"] {
 
 
 .navigator {
-  position: absolute;
+  position: fixed;
   right: 5%;
   top: 33%;
   margin: 0;
@@ -187,24 +189,15 @@ input[type="submit"] {
   width: 5px;
   height: 47px;
   margin-bottom: 12px;
-  background-color: rgb(65,65,65);
+  background-color: rgba(255,255,255,.3);
   border-radius: 2.5px;
   transition: background-color .3s;
 }
 .navigator li:hover {
-  background-color: rgb(110,110,110);
+  background-color: rgba(255,255,255,.8);
 }
 .navigator .current {
-  background-color: rgb(110,110,110);
-}
-.slide.third .navigator li {
-  background-color: rgb(170,125,50);
-}
-.slide.third .navigator li:hover {
-  background-color: rgb(240,230,210);
-}
-.slide.third .navigator .current {
-  background-color: rgb(240,230,210);
+  background-color: rgba(255,255,255,.8);
 }
 .navigator a {
   display: block;
@@ -430,7 +423,6 @@ input[type="submit"] {
   text-align: left;
   text-transform: uppercase;
   line-height: 1.7;
-  font-family: baskerville;
   letter-spacing: 2px;
 }
 .slide.fourth h2 {
@@ -442,7 +434,6 @@ input[type="submit"] {
 .slide.fourth p {
   font-size: 14px;
   line-height: 1.8;
-  font-family: baskerville;
 }
 .slide.fourth ul {
   list-style: none;
@@ -455,6 +446,7 @@ input[type="submit"] {
 
 .slide.fifth {
   position: relative;
+  z-index: 3;
   display: flex;
   flex-wrap: wrap;
   background-color: #fcfcfc;
