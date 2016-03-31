@@ -66,6 +66,8 @@ h1 {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 input[type="text"], input[type="name"], input[type="email"] {
@@ -204,13 +206,40 @@ input[type="submit"] {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  width: 80%;
+  width: 100%;
   margin: auto;
-  top: 60vh;
-  left: 4vw;
+  padding: 0 8vw 0 7vw;
+  top: 58vh;
+  text-align: center;
+}
+@media (max-width: 1400px) {
+  .slide.second ul {
+    padding: 0 11vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .slide.second ul {
+    top: 55vh;
+    padding: 0 18vw 0 17vw;
+  }
+}
+@media (max-width: 767px) {
+  .slide.second ul {
+    padding: 0 4vw;
+  }
+  .slide.second ul img {
+    width: 60px;
+  }
+  .slide.second ul p {
+    font-size: 14px;
+  }
 }
 .slide.second ul svg {
   width: 70px;
+}
+.slide.second ul p {
+  margin: 8px 0;
+  color: #A37634;
 }
 
 
