@@ -144,7 +144,7 @@ input[type="submit"] {
   flex-direction: column;
   justify-content: space-between;
   color: white; }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .slide.first .container {
     width: 100%;
   }
@@ -560,7 +560,7 @@ input[type="submit"] {
   display: inline-block;
   margin-right: 10px;
   padding: 3px 6px; }
-@media (max-width: 650px) {
+@media (max-width: 767px) {
   .main-header nav ul li {
     display: none; } }
 .main-header nav ul .try {
@@ -614,4 +614,5 @@ input[type="submit"] {
 
 .confirmation {
   padding: 48px;
-  color: black; }
+  color: black;
+}
