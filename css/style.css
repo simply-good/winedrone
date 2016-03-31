@@ -472,6 +472,7 @@ input[type="submit"] {
   position: absolute;
   right: 5%;
   top: 60%;
+  z-index: 3;
 }
 .slide.fifth .container {
   position: relative;
