@@ -85,7 +85,6 @@ input[type="text"], input[type="name"], input[type="email"] {
 input[type="submit"] {
   padding: 6px 12px;
   margin-top: 86px;
-  margin-bottom: 36px;
   background: transparent;
   border: 1px solid #E2B050;
   border-radius: 16px;
