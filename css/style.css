@@ -129,16 +129,21 @@ input[type="submit"] {
   min-height: 500px;
   min-height: 100vh; }
 .arrow-down {
-  border: 1px solid white;
   border-radius: 50%;
   transition: background-color .3s;
 }
-/* .arrow-down:hover {
-  background-color: white;
+.st0 {
+  transition: fill .3s;
 }
-.arrow-down:hover svg {
-  color: blue;
-} */
+.st1 {
+  transition: stroke .3s;
+}
+.arrow-down:hover .st0{
+  fill: white;
+}
+.arrow-down:hover .st1 {
+  stroke: #74AED6;
+}
 .arrow-up {
   position: absolute;
   right: 5%;
