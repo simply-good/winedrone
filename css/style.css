@@ -162,6 +162,7 @@ input[type="submit"] {
 .slide.first .container {
   height: 100vh;
   width: 70%;
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   flex-direction: column;
@@ -264,6 +265,7 @@ input[type="submit"] {
   }
 }
 .slide.second ul {
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   justify-content: space-between;
@@ -318,6 +320,7 @@ input[type="submit"] {
   background-size: cover;
 }
 .slide.third .container {
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   flex-direction: column;
@@ -355,6 +358,7 @@ input[type="submit"] {
   }
 }
 .slide.third .features {
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   list-style: none;
@@ -413,6 +417,7 @@ input[type="submit"] {
 
 .slide.fourth {
   position: relative;
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   background-color: #0f0c0b;
@@ -475,6 +480,7 @@ input[type="submit"] {
 .slide.fifth {
   position: relative;
   z-index: 3;
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   flex-wrap: wrap;
@@ -491,6 +497,7 @@ input[type="submit"] {
 }
 .slide.fifth .container {
   position: relative;
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   flex-direction: column;
@@ -511,6 +518,7 @@ input[type="submit"] {
   .slide.fifth .container {
     width: 100%; } }
 .slide.fifth .winedrone {
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   align-items: center;
@@ -544,6 +552,7 @@ input[type="submit"] {
   color: #242020; }
 
 .main-footer {
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   justify-content: center;
@@ -587,6 +596,7 @@ input[type="submit"] {
 }
 
 .main-header {
+  -js-display: flex;
   display: flex;
   display: -ms-flexbox;
   justify-content: space-between;
