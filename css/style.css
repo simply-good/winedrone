@@ -214,7 +214,7 @@ input[type="submit"] {
 }
 @media (max-width: 1400px) {
   .slide.second ul {
-    padding: 0 11vw;
+    padding: 0 12vw 0 11vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
