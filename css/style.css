@@ -367,7 +367,7 @@ input[type="submit"] {
 .slide.third .video-wrapper {
   position: relative;
   min-width: 350px;
-  width: 29vw; }
+  width: 47vw; }
 .slide.third .video-wrapper:after {
   content: "";
   display: block;
