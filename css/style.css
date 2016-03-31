@@ -19,15 +19,28 @@
   src: url(../assets/EndurancePro-Light.ttf); }
 
 @font-face {
-  font-family: palatino;
-  src: url(../assets/Palatino-Roman.ttf); }
+	font-family: 'Palatino';
+	src: url('../assets/Palatino-Roman.eot');
+	src: url('../assets/Palatino-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../assets/Palatino-Roman.woff') format('woff'),
+		url('../assets/Palatino-Roman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 @font-face {
-  font-family: palatino-italic;
-  src: url(../assets/Palatino-Italic.ttf); }
+	font-family: 'Palatino';
+	src: url('../assets/Palatino-Italic.eot');
+	src: url('../assets/Palatino-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../assets/Palatino-Italic.woff') format('woff'),
+		url('../assets/Palatino-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
 
 .palatino {
-  font-family: palatino, serif;
+  font-family: 'Palatino', serif;
 }
 .palatino .main-footer a {
   font-size: 15px;
