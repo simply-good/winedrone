@@ -149,6 +149,14 @@ input[type="submit"] {
   right: 5%;
   top: 60%;
   z-index: 3;
+  transition: top .3s;
+}
+.arrow-up:hover {
+  top: 58%;
+}
+.arrow-up:hover rect,
+.arrow-up:hover polygon {
+  fill: #AB7B1D;
 }
 
 /* Slide 1 */
