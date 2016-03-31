@@ -165,6 +165,7 @@ input[type="submit"] {
   display: flex;
   display: -ms-flexbox;
   flex-direction: column;
+  -ms-flex-direction: column;
   justify-content: space-between;
   color: white; }
 @media (max-width: 769px) {
@@ -320,7 +321,9 @@ input[type="submit"] {
   display: flex;
   display: -ms-flexbox;
   flex-direction: column;
+  -ms-flex-direction: column;
   align-items: center;
+  -ms-flex-align: center;
   justify-content: flex-start;
 }
 .slide.third h1 {
@@ -491,8 +494,10 @@ input[type="submit"] {
   display: flex;
   display: -ms-flexbox;
   flex-direction: column;
+  -ms-flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  -ms-flex-align: start;
   height: 100%;
   width: 44%;
   padding: 0 5% 12px 6.5%;
@@ -509,6 +514,7 @@ input[type="submit"] {
   display: flex;
   display: -ms-flexbox;
   align-items: center;
+  -ms-flex-align: center;
   color: #e2b050;
   font-size: 14px;
   margin: 10vh 8px 8px 8px;
@@ -542,6 +548,7 @@ input[type="submit"] {
   display: -ms-flexbox;
   justify-content: center;
   align-items: center;
+  -ms-flex-align: center;
   width: 100%;
   padding: 26px;
   background-color: #e6e6e6;
@@ -551,6 +558,7 @@ input[type="submit"] {
 @media (max-width: 767px) {
   .main-footer {
     flex-direction: column;
+    -ms-flex-direction: column;
   }
   .main-footer a:not(:first-child) {
     margin-top: 12px;
@@ -583,6 +591,7 @@ input[type="submit"] {
   display: -ms-flexbox;
   justify-content: space-between;
   align-items: center;
+  -ms-flex-align: center;
   padding: 20px 0; }
   @media (max-width: 767px) {
     .main-header {
