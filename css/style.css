@@ -563,16 +563,22 @@ input[type="submit"] {
 @media (max-width: 650px) {
   .main-header nav ul li {
     display: none; } }
-.main-header nav ul li:last-child {
+.main-header nav ul .try {
   display: inline-block;
   border: 1px solid white;
-  border-radius: 6px; }
+  border-radius: 6px;
+  transition: background-color .3s, border .3s;
+}
 .main-header nav ul li a {
   text-transform: uppercase;
   transition: border .3s;
 }
-.main-header nav ul li a:hover {
+.main-header nav ul li:not(.try) a:hover {
   border-bottom: 1px solid rgba(255,255,255,.7);
+}
+.main-header .try:hover {
+  border: 1px solid rgb(134,134,134);
+  background-color: rgb(134,134,134);
 }
 @media (min-width: 1025px) {
   .main-header {
