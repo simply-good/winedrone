@@ -27,7 +27,7 @@
   src: url(../assets/Palatino-Italic.ttf); }
 
 .palatino {
-  font-family: palatino, serif;
+  font-family: palatino, serif !important;
 }
 .palatino .main-footer a {
   font-size: 15px;
@@ -51,7 +51,7 @@ body {
   background-color: #FCFCFC;
   background-size: 98.65%;
   background-position: center top;
-  font-family: endurance, sans-serif;
+  font-family: baskerville, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -79,7 +79,7 @@ input[type="text"], input[type="name"], input[type="email"] {
   margin-bottom: 18px;
   border-bottom: 1px solid #e2b050;
   font-size: 13px;
-  font-family: endurance;
+  font-family: baskerville;
   background-color: transparent; }
 
 input[type="submit"] {
@@ -93,21 +93,22 @@ input[type="submit"] {
   outline: none;
   cursor: pointer;
   transition: background-color .3s, color .3s;
+  font-family: baskerville;
 }
   input[type="submit"]:hover, input[type="submit"]:active {
     background-color: #E2B050;
     color: white; }
 
 :-moz-placeholder {
-  font-family: endurance;
+  font-family: baskerville-italic;
   color: #242020;
 }
 ::-webkit-input-placeholder {
-  font-family: endurance;
+  font-family: baskerville-italic;
   color: #242020;
 }
 :-ms-input-placeholder {
-  font-family: endurance;
+  font-family: baskerville-italic;
   color: #242020;
 }
 .palatino :-moz-placeholder {
@@ -147,7 +148,7 @@ input[type="submit"] {
   right: 9px;
   bottom: 30px;
   text-align: center;
-  font-family: endurance-light, sans-serif; }
+  font-family: baskerville, sans-serif; }
 .slide.first svg {
   margin: 0 auto 100px auto;
   width: 88%; }
@@ -194,7 +195,7 @@ input[type="submit"] {
   margin-top: 72px;
   font-size: 30px;
   line-height: 1.5;
-  font-family: endurance-light;
+  font-family: baskerville;
   letter-spacing: .2px;
 }
 @media (max-width: 767px) {
@@ -366,7 +367,7 @@ input[type="submit"] {
   text-align: left;
   text-transform: uppercase;
   line-height: 1.7;
-  font-family: endurance-light;
+  font-family: baskerville;
   letter-spacing: -1px;
 }
 .slide.fourth h2 {
@@ -377,7 +378,7 @@ input[type="submit"] {
 .slide.fourth p {
   font-size: 8.5px;
   line-height: 1.9;
-  font-family: endurance-light;
+  font-family: baskerville;
 }
 .slide.fourth ul {
   list-style: none;
