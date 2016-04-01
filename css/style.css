@@ -82,6 +82,9 @@ ul {
   padding: 0;
   margin: 0;
 }
+svg {
+  overflow: hidden;
+}
 
 input[type="text"], input[type="name"], input[type="email"] {
   display: block;
